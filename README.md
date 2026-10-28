@@ -1,20 +1,13 @@
-# MAJUMI — Website Pitching (Logo Infinity #13)
+# MAJUMI Website Pitch — v3.2 Brand Update
 
-Website pitching MAJUMI dengan simbol infinity cyan–biru yang dipilih dari opsi 13. Slogan: **Saatnya Maju, Ubah Data Jadi Aksi.**
+Logo dan slogan yang digunakan sekarang mengikuti gambar referensi yang diberikan pemilik:
+- **Logo:** infinity bergradasi biru-cyan / wordmark MAJUMI kapital.
+- **Slogan:** **Saatnya Maju, Ubah Data Jadi Aksi.**
 
-## GitHub dan Vercel
-1. Ekstrak ZIP dan upload seluruh isi folder ini ke root repository GitHub `majumi-website`.
-2. Di Vercel pilih Add New → Project → Import GitHub repository.
-3. Framework Preset **Other**, Root Directory `./`, Build Command kosong, Output Directory `.` (untuk static HTML).
-4. Deploy. Pada update berikutnya, commit perubahan melalui GitHub agar Vercel melakukan redeploy.
+Sumber gambar asli disertakan di `assets/majumi-brand-original.png`; simbol infinity untuk navbar/footer diambil dari gambar asli ke `assets/majumi-infinity.png`. Seluruh halaman Profit & Growth OS v3.1 dan interaksinya dipertahankan.
 
-`index.html` adalah halaman HTML mandiri: logo dan favicon sudah ditanam langsung di dalam HTML agar preview tetap berfungsi jika dibuka terpisah. Versi logo individual ada di folder `assets` untuk pengembangan nanti.
+## Upload GitHub lalu Vercel
+Upload **seluruh isi ZIP** ke root repository: `index.html`, `favicon.png`, `README.md`, serta folder `assets/`. Jangan hanya mengunggah HTML sebab logo memakai asset lokal. Di Vercel gunakan Framework Preset **Other** dan Build Command kosong (static HTML).
 
-## Status produk
-Dashboard menggunakan data simulasi; website belum terhubung ke Supabase, n8n, Apify, dan Hermes. Form minat pilot hanya menyalin pesan; belum menyimpan pengajuan ke backend. Paket dan harga merupakan rancangan.
-
-## Aset
-- `assets/majumi-infinity-mark.png` — simbol infinity cyan-biru dari gambar logo yang dipilih, dengan latar transparan.
-- `assets/favicon.png` — favicon untuk website.
-
-Logo diekstraksi dari gambar referensi pilihan pengguna. Lakukan finalisasi berkas vector dan pemeriksaan merek sebelum pendaftaran atau produksi besar.
+## Transparansi
+Website ini adalah website pitching. Dashboard menggunakan angka simulasi; form pilot menyalin pesan, belum terhubung ke backend. Fitur AI operasional masih dalam tahap pengembangan.
