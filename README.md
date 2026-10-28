@@ -1,4 +1,6 @@
-# MAJUMI — Futuristic Pitching Website
+# MAJUMI — Saatnya Maju, Ubah Data Jadi Aksi.
+
+**Slogan:** Saatnya Maju, Ubah Data Jadi Aksi.
 
 Website landing page MAJUMI berbahasa Indonesia, bergaya **dark futuristic / AI business**, responsif, dan menggunakan satu berkas `index.html` tanpa dependensi build.
 
