@@ -1,37 +1,20 @@
-# MAJUMI — Saatnya Maju, Ubah Data Jadi Aksi.
+# MAJUMI — Website Pitching (Logo Infinity #13)
 
-**Slogan:** Saatnya Maju, Ubah Data Jadi Aksi.
+Website pitching MAJUMI dengan simbol infinity cyan–biru yang dipilih dari opsi 13. Slogan: **Saatnya Maju, Ubah Data Jadi Aksi.**
 
-Website landing page MAJUMI berbahasa Indonesia, bergaya **dark futuristic / AI business**, responsif, dan menggunakan satu berkas `index.html` tanpa dependensi build.
+## GitHub dan Vercel
+1. Ekstrak ZIP dan upload seluruh isi folder ini ke root repository GitHub `majumi-website`.
+2. Di Vercel pilih Add New → Project → Import GitHub repository.
+3. Framework Preset **Other**, Root Directory `./`, Build Command kosong, Output Directory `.` (untuk static HTML).
+4. Deploy. Pada update berikutnya, commit perubahan melalui GitHub agar Vercel melakukan redeploy.
 
-## Cara melihat
+`index.html` adalah halaman HTML mandiri: logo dan favicon sudah ditanam langsung di dalam HTML agar preview tetap berfungsi jika dibuka terpisah. Versi logo individual ada di folder `assets` untuk pengembangan nanti.
 
-Buka `index.html` di browser desktop atau smartphone. Dashboard memiliki empat tab demo, kontrol periode simulasi, interaksi persetujuan draft, dan simulasi delegasi AI Orchestrator.
+## Status produk
+Dashboard menggunakan data simulasi; website belum terhubung ke Supabase, n8n, Apify, dan Hermes. Form minat pilot hanya menyalin pesan; belum menyimpan pengajuan ke backend. Paket dan harga merupakan rancangan.
 
-## Publikasi dari GitHub ke Vercel
+## Aset
+- `assets/majumi-infinity-mark.png` — simbol infinity cyan-biru dari gambar logo yang dipilih, dengan latar transparan.
+- `assets/favicon.png` — favicon untuk website.
 
-1. Buat repository GitHub, misalnya `majumi-website`.
-2. Upload `index.html` dan `README.md` ke root repository.
-3. Masuk Vercel → Add New Project → Import dari GitHub.
-4. Framework Preset: **Other**, Root Directory: `./`, tanpa build command. Atur output sebagai direktori root bila diperlukan.
-5. Deploy. Setelah terhubung, commit GitHub berikutnya otomatis memicu deployment.
-
-## Catatan penting tentang klaim dan fungsionalitas
-
-Website ini **prototype pitching dengan interaksi lokal**. Angka dashboard, tabel kompetitor, dan hasil simulasi adalah data fiktif. UI disiapkan seperti platform SaaS premium, **bukan klaim backend MAJUMI sudah beroperasi**.
-
-- Sales Intelligence, Competitor Radar, Growth Strategist adalah **Target MVP**.
-- Campaign Agent, Customer Intelligence, dan Experiment Evaluation adalah **Roadmap**.
-- Formulir saat ini **menyalin pesan**, tidak menyimpan atau mengirim lead ke server.
-- Rencana harga Starter/Growth/Scale adalah **hipotesis**, belum paket aktif.
-- Aktivitas "Approve" hanya mengubah status simulasi, bukan menerbitkan kampanye.
-- Sebelum membuka layanan berbayar: selesaikan Supabase auth/RLS, lead capture yang aman, kebijakan privasi, integrasi resmi, serta verifikasi kualitas output.
-
-## Penyesuaian
-
-- Warna dan gaya: CSS `:root`.
-- Copywriting, CTA, harga, FAQ: konten HTML.
-- Grafis interaktif: JS `sales`, `updateGraph`, dan penanganan tombol demo.
-- Form pilot: `lead-form` perlu backend/CRM dan pemberitahuan privasi sebelum benar-benar menerima data.
-
-Terinspirasi oleh pola storytelling landing page SaaS premium. Seluruh implementasi dan materi brand MAJUMI ditulis ulang khusus untuk proyek ini.
+Logo diekstraksi dari gambar referensi pilihan pengguna. Lakukan finalisasi berkas vector dan pemeriksaan merek sebelum pendaftaran atau produksi besar.
