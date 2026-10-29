@@ -1,13 +1,20 @@
-# MAJUMI Website Pitch — v3.2 Brand Update
+# MAJUMI 3.3 — Weekly Intelligence Pitching Site
 
-Logo dan slogan yang digunakan sekarang mengikuti gambar referensi yang diberikan pemilik:
-- **Logo:** infinity bergradasi biru-cyan / wordmark MAJUMI kapital.
-- **Slogan:** **Saatnya Maju, Ubah Data Jadi Aksi.**
+Website statis satu file untuk GitHub → Vercel.
 
-Sumber gambar asli disertakan di `assets/majumi-brand-original.png`; simbol infinity untuk navbar/footer diambil dari gambar asli ke `assets/majumi-infinity.png`. Seluruh halaman Profit & Growth OS v3.1 dan interaksinya dipertahankan.
+## Cara deployment
+1. Unggah `index.html` ke akar repository GitHub.
+2. Import repository ke Vercel (Other / static, root `./`, no build).
+3. Pastikan deployment Ready dan refresh website.
 
-## Upload GitHub lalu Vercel
-Upload **seluruh isi ZIP** ke root repository: `index.html`, `favicon.png`, `README.md`, serta folder `assets/`. Jangan hanya mengunggah HTML sebab logo memakai asset lokal. Di Vercel gunakan Framework Preset **Other** dan Build Command kosong (static HTML).
+## Fitur baru versi 3.3
+- Weekly Growth Brief (3 prioritas contoh, bukti yang dapat dibuka, toggle simulasi HPP hilang).
+- Growth Action Tracker (status persetujuan dan progres simulasi).
+- Monthly Value Report (ringkasan fiktif, tidak mengklaim ROI).
+- Notifikasi preview (rencana Senin 08.00 WITA) dan benefit recurring value.
+- Panel Weekly Intelligence pada dashboard lama; CTA, harga dan FAQ diperbarui.
 
-## Transparansi
-Website ini adalah website pitching. Dashboard menggunakan angka simulasi; form pilot menyalin pesan, belum terhubung ke backend. Fitur AI operasional masih dalam tahap pengembangan.
+## Penting
+Logo infinity dan slogan final tetap tersimpan langsung di HTML. Tidak butuh folder `assets`.
+Semua angka dan interaksi adalah data **simulasi lokal**. Tidak ada backend, tidak menyimpan leads atau transaksi, tidak mengirim pesan, dan belum ada n8n/Hermes/Apify/Supabase yang terhubung.
+Form minat pilot hanya membuat teks untuk disalin. Harga masih rancangan, bukan penawaran aktif.
