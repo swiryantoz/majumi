@@ -1,20 +1,25 @@
-# MAJUMI 3.3 — Weekly Intelligence Pitching Site
+# MAJUMI Website v3.4 — Growth Operator Edition
 
-Website statis satu file untuk GitHub → Vercel.
+Landing page pitching untuk calon owner coffee shop dan restoran di Makassar. Berangkat dari website MAJUMI v3.3 dan mempertahankan logo infinity biru serta slogan final.
 
-## Cara deployment
-1. Unggah `index.html` ke akar repository GitHub.
-2. Import repository ke Vercel (Other / static, root `./`, no build).
-3. Pastikan deployment Ready dan refresh website.
+## Deployment ke GitHub + Vercel
+1. Upload `index.html` ke root repository GitHub atau impor folder situs statis ini.
+2. Di Vercel pilih Framework Preset: **Other** (static), Root Directory: root repository, tanpa build command.
+3. Deploy lalu uji tampilan desktop dan mobile.
+4. Jangan menghapus logo base64 di HTML: sengaja tertanam agar tidak hilang karena file `assets/` terpisah.
 
-## Fitur baru versi 3.3
-- Weekly Growth Brief (3 prioritas contoh, bukti yang dapat dibuka, toggle simulasi HPP hilang).
-- Growth Action Tracker (status persetujuan dan progres simulasi).
-- Monthly Value Report (ringkasan fiktif, tidak mengklaim ROI).
-- Notifikasi preview (rencana Senin 08.00 WITA) dan benefit recurring value.
-- Panel Weekly Intelligence pada dashboard lama; CTA, harga dan FAQ diperbarui.
+## Status & batasan yang perlu diketahui
+- Ini website pitching dengan interaksi simulasi lokal. Belum tersambung ke Supabase, Hermes, n8n, Apify, POS, Instagram, atau WhatsApp.
+- Semua metrik dan skenario merupakan **data fiktif**, bukan hasil pelanggan nyata.
+- Form `Ajukan demo` menyalin pesan ke clipboard dan **tidak** mengirim/merekam lead ke server. Tim MAJUMI perlu menyediakan nomor WA/email resmi atau backend/form provider sebelum membuka kampanye publik.
+- Harga paket masih hipotesis validasi. Fitur berlabel roadmap belum tersedia sebagai produk aktif.
+- Sebelum memakai data pelanggan sungguhan, buat kebijakan privasi, consent, kontrol akses, dan keamanan aplikasi.
 
-## Penting
-Logo infinity dan slogan final tetap tersimpan langsung di HTML. Tidak butuh folder `assets`.
-Semua angka dan interaksi adalah data **simulasi lokal**. Tidak ada backend, tidak menyimpan leads atau transaksi, tidak mengirim pesan, dan belum ada n8n/Hermes/Apify/Supabase yang terhubung.
-Form minat pilot hanya membuat teks untuk disalin. Harga masih rancangan, bukan penawaran aktif.
+## Fitur baru v3.4
+- Copywriting berorientasi owner: kerja pertumbuhan yang berulang, bukan janji formula sukses.
+- Growth Operator Loop (monitor → prioritaskan → siapkan aksi → ukur).
+- Revenue Watchdog, Profit Optimization, Customer Retention, Campaign Execution (status MVP/roadmap jelas).
+- Simulasi interaktif tiga masalah, approval, dan evaluasi tanpa aktivitas nyata.
+- Kalkulator titik impas langganan berbasis margin kontribusi.
+- FAQ retensi, biaya AI monitoring, dan izin pelaksanaan promosi.
+- CTA demo 15 menit dan pendaftaran pilot Makassar.
